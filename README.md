@@ -10,6 +10,16 @@ Raw CSV data is ingested from Amazon S3, cleaned and validated in the Silver lay
 
 ---
 
+## Problem Statement
+
+Good Cabs is a fast-growing transportation company operating across multiple cities in India. As the business scales, it faces challenges in providing timely and reliable city-level data to regional managers.
+
+The existing data pipelines are complex, manual, and error-prone, resulting in slow data processing and reduced stakeholder trust.
+
+This project aims to address these challenges by implementing **Lakeflow Spark Declarative Pipelines (SDP)** to build an **automated, scalable, and reliable data pipeline** that delivers **BI-ready data for faster and better decision-making**.
+
+---
+
 ## Table of Contents
 
 - [Pipeline Overview](#pipeline-overview)
@@ -130,47 +140,61 @@ The source data consists of CSV files stored in an Amazon S3 bucket.
 
 # Screenshots
 
-This section provides visual evidence of the project setup, source data, pipeline processing, architecture, catalog objects, and final dashboard.
+This section provides visual evidence of the project setup,architecture, source data, pipeline processing, architecture, catalog objects, and final dashboard.
+.
+## 1. Architecture
 
-> Place all screenshots inside a `screenshots/` folder in the project repository.
+This screenshot shows the architecture of the project
+<img width="14204" height="4628" alt="architecture" src="https://github.com/user-attachments/assets/4daceb87-b2b5-474d-adc7-1d048cdc40b4" />
 
-## 1. AWS S3 Source Data
+
+
+---
+## 2. AWS S3 Source Data
 
 This screenshot shows the GoodCabs source CSV files stored in the Amazon S3 bucket.
+<img width="1917" height="1027" alt="Screenshot 2026-09-18 164510" src="https://github.com/user-attachments/assets/6851183f-a27d-40f0-8af3-7f2298b3fe9b" />
+<img width="1917" height="1027" alt="Screenshot 2026-09-18 164454" src="https://github.com/user-attachments/assets/80d7ede1-ac26-4cfb-aa7f-acbad99f94a3" />
 
-![AWS S3 Source Data](screenshots/s3.png)
 
----
 
-## 2. Databricks Pipeline
-
-This screenshot shows the `transportation_pipeline` configuration and pipeline execution.
-
-![Databricks Pipeline](screenshots/pipeline.png)
 
 ---
 
-## 3. Pipeline Architecture / DAG
+## 3. Databricks Pipeline
+
+This screenshot shows the `transportation_pipeline` configuration
+<img width="1917" height="1007" alt="image" src="https://github.com/user-attachments/assets/95bdb64d-5018-4349-9f2a-5636b312073a" />
+
+
+
+---
+
+## 4. Pipeline Architecture / DAG
 
 This screenshot shows the Bronze → Silver → Gold dependency graph and data flow.
 
-![Pipeline Architecture](screenshots/architecture.png)
+<img width="1917" height="1011" alt="Screenshot 2026-09-18 164322" src="https://github.com/user-attachments/assets/7de14b6a-ce3c-40dd-b425-ec77c065c663" />
+<img width="1917" height="1020" alt="Screenshot 2026-09-18 164353" src="https://github.com/user-attachments/assets/e18729bf-7128-4000-a96c-0ae549f64039" />
+
 
 ---
 
-## 4. Unity Catalog
+## 5. Unity Catalog
 
 This screenshot shows the `transportation` catalog and its Bronze, Silver, and Gold schemas.
 
-![Unity Catalog](screenshots/catalog.png)
+<img width="1917" height="1025" alt="image" src="https://github.com/user-attachments/assets/5de6c5ad-a459-4172-b9e9-8327053afcbf" />
+
 
 ---
 
-## 5. Gold Dashboard
+## 6. Gold Dashboard
 
 This screenshot shows the final analytics dashboard built using the Gold layer data.
 
-![Gold Dashboard](screenshots/dashboard.png)
+<img width="1917" height="1023" alt="Screenshot 2026-09-18 171516" src="https://github.com/user-attachments/assets/8e52640f-f29f-4f27-bb23-261aee6ab4bb" />
+
 
 ---
 

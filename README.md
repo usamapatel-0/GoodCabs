@@ -195,7 +195,8 @@ This screenshot shows the `transportation` catalog and its Bronze, Silver, and G
 
 This screenshot shows the final analytics dashboard built using the Gold layer data.
 
-<img width="1917" height="1023" alt="Screenshot 2026-09-18 171516" src="https://github.com/user-attachments/assets/8e52640f-f29f-4f27-bb23-261aee6ab4bb" />
+<img width="1917" height="1022" alt="Screenshot 2026-09-21 194220" src="https://github.com/user-attachments/assets/e3eaa74e-30f7-41be-8643-4d6800726f22" />
+
 
 ---
 

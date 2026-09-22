@@ -496,6 +496,7 @@ JOIN transportation.silver.city c
 JOIN transportation.silver.calendar ca
     ON t.business_date = ca.date;
 ```
+<img width="1917" height="1028" alt="gold" src="https://github.com/user-attachments/assets/d40e7306-e0f2-4138-ac6a-f3dea2cad484" />
 
 ---
 
